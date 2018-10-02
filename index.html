@@ -65,17 +65,17 @@
 		</div>
 		<div class="w3-panel w3-hover-opacity">
 			<a href="https://bruffin095.artstation.com/">
-				<img src="icons/artstationbigdark.png" style="max-width: 195px;">
+				<img src="icons/artstation.png" style="padding-right:6px;max-width: 195px;">
 			</a>
 		</div>
 		<!-- social links -->
 		<div class="w3-panel w3-margin-bottom">
-			<div class="w3-third" style="height:48px;">
+			<div class="w3-left" style="height:48px;margin-right:48px;">
 				<a href="https://www.instagram.com/bruffin095/">
 					<i class="w3-xxxlarge fa fa-instagram w3-hover-opacity"></i>
 				</a>
 			</div>
-			<div class="w3-twothird" style="height:100%">
+			<div class="w3-left" style="height:100%">
 				<a href="https://www.linkedin.com/in/bruffin095/">
 					<i class="w3-xxxlarge fa fa-linkedin w3-hover-opacity"></i>
 				</a>
@@ -83,13 +83,13 @@
 			</div>
 		</div>
 		<div class="w3-panel w3-margin-bottom">
-			<div class="w3-third">
+			<div class="w3-left" style="margin-right:48px">
 				<a href="https://twitter.com/BrandonRuffin10">
 					<i class="w3-xxxlarge fa fa-twitter w3-hover-opacity"></i>
 				</a>
 			</div>
 			<!-- had to manually move upwork logo 5px down to match icons (FONTAWESOME GET A UPWORK LOGO ALREADY!) -->
-			<div class="w3-twothird" style="margin-top:5px;">
+			<div class="w3-left" style="margin-top:5px;">
 				<a href="https://www.upwork.com/o/profiles/users/_~01819530cca465a103/">
 					<img class="w3-hover-opacity" src="icons/upwork.png" style="height: 42px;">
 				</a>
@@ -193,32 +193,22 @@
 				<h2>
 					<b>Contact</b>
 				</h2>
-				<!-- <h4>Looking to get some work done?</h4>
-				<p>
-					I currently freelance through Upwork.com. If you're interested in working with me, or have a project you could use some assistance
-					on, feel free to send me an email at mail@mail.com or contact me through UpWork.
-				</p>
-				<p>
-					<a href="mailto:BRANDO@BRANDOOO.com?subject=This%20is%20the%20email%20subject&body=This%20is%20the%20body%20of%20the%20email."
-					 target="_top">Send mail!</a>
-				</p> -->
 
-			
-				<input class="w3-input w3-half w3-border-right" type="text" name="fname" placeholder="First" style="height:38px;">
-				<input class="w3-input w3-half" type="text" name="lname" placeholder="Last" style="height:38px;">
-				<input class="w3-input" type="text" name="email" placeholder="E-Mail" style="height:38px;">
-				<input class="w3-input" type="text" name="message" placeholder="Message" style="height:76px;">
-
+				<form action="mailto:bruffin095@gmail.com" method="POST" enctype="text/plain">
+					<input class="w3-input w3-half w3-border" type="text" name="fname" placeholder="First" style="height:38px;background:#202020;color:white;" required>
+					<input class="w3-input w3-half w3-border" type="text" name="lname" placeholder="Last" style="height:38px;background:#202020;color:white;" required>
+					<input class="w3-input w3-border" type="email" name="email" placeholder="E-Mail" style="width:100%;height:38px;background:#202020;color:white;" required>
+					<textarea class="w3-input w3-border" type="text" name="message" placeholder="Message" style="width:100%;height:76px;background:#202020;color:white;" required></textarea>
+					<input class="w3-button w3-border" type="submit" name="submit" value="send" style="width:100%;background: #202020;">
+				</form>
 			</div>
 
 
 			<div class="w3-container w3-half w3-mobile">
-				<!-- style="margin-left: -15px;" -->
 				<h2>
 					<b>About Me</b>
 				</h2>
 				<p>
-					<!-- <span style="margin-left:3em;"></span> -->
 					Artistic scene design is my passion, though my clients contract me for a wide array of tasks, from product design and modeling
 					to clean up work and optomization. If you're interested in working with me, send me an email and I'll get back to you
 					same-day.
@@ -227,39 +217,13 @@
 				<div class="w3-container">
 
 					<i class="fa fa-envelope" style="width:20px"></i>
-					Email: mail@mail.com
+					Email: bruffin095@gmail.com
 				</div>
 				<div class="w3-container">
 					<i class="w3-large fa fa-map-marker" style="width:20px"></i>
 					Lake Elsinore, CA
 				</div>
 			</div>
-
-
-
-			<!-- can put a half here, on the right, have a contact me page with email field -->
-			<!-- <div class="w3-container w3-half w3-mobile">
-				<div class="w3-content">
-					<div class="w3-panel">
-						<i class="fa fa-envelope" style="width:20px"></i>
-						Email: mail@mail.com
-						<br>
-						<i class="w3-large fa fa-map-marker" style="width:20px"></i>
-						Lake Elsinore, CA
-						<br>
-					</div>
-					<div class="w3-panel w3-center">
-						<a href="https://bruffin095.artstation.com/">
-							<img src="icons/artstationbigdark.png" style="max-width: 210px;">
-						</a>
-					</div>
-					<div class="w3-panel w3-center">
-						<a href="https://bruffin095.artstation.com/">
-							<img src="icons/logo-sketchfab-white.png" style="max-width: 210px;">
-						</a>
-					</div>
-				</div>
-			</div> -->
 		</div>
 
 		<!-- End page content -->

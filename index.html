@@ -25,10 +25,10 @@
 		color: white;
 		font-size: 20px;
 		text-align: center;
-
+		padding: auto;
 	}
 
-	.imgntitle:hover .imgtitle {
+	img:hover .imgtitle {
 		opacity: 1;
 	}
 </style>
@@ -43,7 +43,7 @@
 					w3-padding w3-hover-grey" title="close menu">
 					<i class="fa fa-remove"></i>
 				</a>
-				<img src="images/brandonruffin.jpg" style="width:55%;" class="w3-circle">
+				<img src="images/brandonruffin.jpg" style="width:55%;" class="w3-circle w3-hide-small">
 				<br>
 				<br>
 				<h4>
@@ -64,25 +64,26 @@
 			</div>
 			<!-- sketch fab and art station -->
 			<div class="w3-panel w3-hover-opacity">
-				<a href="https://sketchfab.com/bruffin095">
+				<a href="https://sketchfab.com/bruffin095" target="_blank">
 					<img src="icons/logo-sketchfab-white.png" style="max-width: 190px;">
 				</a>
 			</div>
 			<div class="w3-panel w3-hover-opacity">
-				<a href="https://bruffin095.artstation.com/">
+				<a href="https://bruffin095.artstation.com/" target="_blank">
 					<img src="icons/artstation.png" style="padding-right:6px;max-width:
 						195px;">
 				</a>
 			</div>
 			<!-- social links -->
+			<!-- use w3-hide-small to hide default section on mobile. -->
 			<div class="w3-panel w3-margin-bottom">
 				<div class="w3-left" style="height:48px;margin-right:38px;">
-					<a href="https://www.instagram.com/bruffin095/">
+					<a href="https://www.instagram.com/bruffin095/" target="_blank">
 						<i class="w3-xxxlarge fa fa-instagram w3-hover-opacity"></i>
 					</a>
 				</div>
 				<div class="w3-left" style="height:100%">
-					<a href="https://www.linkedin.com/in/bruffin095/">
+					<a href="https://www.linkedin.com/in/bruffin095/" target="_blank">
 						<i class="w3-xxxlarge fa fa-linkedin w3-hover-opacity"></i>
 					</a>
 
@@ -90,13 +91,14 @@
 			</div>
 			<div class="w3-panel w3-margin-bottom">
 				<div class="w3-left" style="margin-right:35px">
-					<a href="https://twitter.com/BrandonRuffin10">
+					<a href="https://twitter.com/BrandonRuffin10" target="_blank">
 						<i class="w3-xxxlarge fa fa-twitter w3-hover-opacity"></i>
 					</a>
 				</div>
 				<!-- had to manually move upwork logo 5px down to match icons (FONTAWESOME GET A UPWORK LOGO ALREADY!) -->
 				<div class="w3-left" style="margin-top:5px;">
-					<a href="https://www.upwork.com/o/profiles/users/_~01819530cca465a103/">
+					<a href="https://www.upwork.com/o/profiles/users/_~01819530cca465a103/"
+						target="_blank">
 						<img class="w3-hover-opacity" src="icons/upwork.png" style="height:
 							42px;">
 					</a>
@@ -134,38 +136,43 @@
 			<!-- !!! First Photo Grid-->
 			<div class="w3-row-padding">
 				<div class="w3-third w3-container w3-margin-bottom">
-					<img src="/images/1_c.jpg" alt="Night Lights" style="width:100%"
+					<img src="/images/NightLights.png" alt="Night Lights" style="width:100%"
 						class="w3-hover-sepia"
 						onclick="document.getElementById('id01').style.display='block'">
 
 					<div id="id01" class="w3-modal">
 						<div class="w3-modal-content w3-animate-top"
 							onclick="document.getElementById('id01').style.display='none'">
-							<img src="/images/1.png" style="max-width:100%;max-height:100%;">
+							<img src="/images/NightLights.png"
+								style="max-width:100%;max-height:100%;">
 						</div>
 					</div>
 				</div>
-				<div class="w3-third w3-container w3-margin-bottom w3-tooltip">
-					<img src="/images/2_crop.jpg" alt="Lost and Forgotten" style="width:100%"
+				<div class="w3-third w3-container w3-margin-bottom">
+					<img src="/images/CroppedLostAndForgotten.jpg" alt="Lost and Forgotten"
+						style="width:100%"
 						class="w3-hover-sepia"
 						onclick="document.getElementById('id02').style.display='block'">
 
 					<div id="id02" class="w3-modal">
 						<div class="w3-modal-content w3-animate-top"
 							onclick="document.getElementById('id02').style.display='none'">
-							<img src="/images/2.png" style="max-width:100%;max-height:100%;">
+							<img src="/images/LostAndForgotten.png"
+								style="max-width:100%;max-height:100%;">
 						</div>
 					</div>
 				</div>
 				<div class="w3-third w3-container">
-					<img src="/images/3_c.jpg" alt="Norway" style="width:100%"
+					<img src="/images/MidnightWriting.png" alt="Midnight Writing"
+						style="width:100%"
 						class="w3-hover-sepia"
 						onclick="document.getElementById('id03').style.display='block'">
 
 					<div id="id03" class="w3-modal"
 						onclick="document.getElementById('id03').style.display='none'">
 						<div class="w3-modal-content w3-animate-top">
-							<img src="/images/3.png" style="width:100%;max-height:100%;">
+							<img src="/images/MidnightWriting.png"
+								style="width:100%;max-height:100%;">
 						</div>
 					</div>
 				</div>
@@ -174,40 +181,42 @@
 			<!-- !!! Second Photo Grid-->
 			<div class="w3-margin-top w3-row-padding">
 				<div class="w3-third w3-container w3-margin-bottom">
-					<img src="/images/4_c.jpg" alt="Norway" style="width:100%"
+					<img src="/images/CroppedMorningCoffee.jpg" alt="Morning Coffee"
+						style="width:100%"
 						class="w3-hover-sepia"
 						onclick="document.getElementById('id04').style.display='block'">
 
 					<div id="id04" class="w3-modal"
 						onclick="document.getElementById('id04').style.display='none'">
 						<div class="w3-center w3-modal-content w3-animate-top">
-							<img src="/images/4.png" style="width:100%;max-height:100%;">
+							<img src="/images/MorningCoffee.png" style="width:100%;max-height:100%;">
 						</div>
 					</div>
 
 				</div>
 				<div class="w3-third w3-container w3-margin-bottom w3-dropdown-hover">
-					<img src="/images/5_c.jpg" alt="Norway" style="width:100%"
+					<img src="/images/ThisIsIt.png" alt="This Is It" style="width:100%"
 						class="w3-hover-sepia"
 						onclick="document.getElementById('id05').style.display='block'">
-
 					<div id="id05" class="w3-modal"
 						onclick="document.getElementById('id05').style.display='none'">
 						<div class="w3-center w3-modal-content w3-animate-top">
-							<img src="/images/5.png" style="width:100%;max-height:100%;">
+							<img src="/images/ThisIsIt.png" style="width:100%;max-height:100%;">
 						</div>
 					</div>
 				</div>
 
 				<div class="w3-third w3-container w3-dropdown-hover">
-					<img src="/images/6_c.jpg" alt="Norway" style="width:100%"
+					<img src="/images/SmallBeginnings.png" alt="Small Beginnings"
+						style="width:100%"
 						class="w3-hover-sepia"
 						onclick="document.getElementById('id06').style.display='block'">
 
 					<div id="id06" class="w3-modal"
 						onclick="document.getElementById('id06').style.display='none'">
 						<div class="w3-center w3-modal-content w3-animate-top">
-							<img src="/images/6.png" style="width:100%;max-height:100%;">
+							<img src="/images/SmallBeginnings.png"
+								style="width:100%;max-height:100%;">
 						</div>
 					</div>
 				</div>
@@ -223,31 +232,32 @@
 					</h2>
 
 					<form action="https://formspree.io/bruffin095@gmail.com" method="POST">
-						<input class="w3-input w3-half w3-border" type="text" name="name" placeholder="Name*" style="height:38px;background:#202020;color:white;" required>
-
-						<select class="w3-input w3-half w3-border" style="height:38px;background:#202020;color:white;" name="job-length">
+						<input class="w3-input w3-half w3-border" type="text" name="name"
+							placeholder="Name*" style="height:38px;background:#202020;color:white;"
+							required>
+						<select class="w3-input w3-center w3-half w3-border"
+							style="height:38px;background:#202020;color:white;" name="job-length">
 							<option class="w3-input" value="undefined">Job Length*</option>
+							<option value="not-applicable">N/A</option>
 							<option value="short-term">Short Term</option>
 							<option value="long-term">Long Term</option>
 						</select>
-
-						<input class="w3-input w3-border" type="email" name="_replyto" placeholder="Email*" style="width:100%;height:38px;background:#202020;color:white;" required>
-						<textarea class="w3-input w3-border" type="text" name="message" placeholder="Message*" style="width:100%;height:76px;background:#202020;color:white;" required></textarea>
-						<input type="hidden" name="_next" value="#"/> <!-- hopefully prevents user from seeing the formspree.io thank you page -->
-						<input type="hidden" name="_subject" value="Inquiry from bruffin.works" /> <!-- default subject for email -->
+						<input class="w3-input w3-border" type="email" name="_replyto"
+							placeholder="Email*"
+							style="width:100%;height:38px;background:#202020;color:white;" required>
+						<textarea class="w3-input w3-border" type="text" name="message"
+							placeholder="Message*"
+							style="width:100%;height:76px;background:#202020;color:white;" required></textarea>
+						<input type="hidden" name="_next" value="#" /> <!-- hopefully prevents user from seeing the formspree.io thank you page -->
+						<input type="hidden" name="_subject" value="Inquiry from bruffin.works" />
+						<!-- default subject for email -->
 						<!-- <input type="hidden" name="_format" value="plain" /> make email plain text -->
 						<input type="text" name="_gotcha" style="display:none" /> <!-- this fools spam bots into putting data here, which prevents email from sending -->
-						<input class="w3-button w3-border" type="submit" name="submit" value="send" style="width:100%;background: #202020;">
+						<input class="w3-button w3-border" type="submit" name="submit"
+							value="send" style="width:100%;background: #202020;">
+						<p class="w3-small">*Required. To avoid spam, a reCAPTCHA will be
+							required.</p>
 					</form>
-
-					<!-- this is my original form
-					<form action="mailto:bruffin095@gmail.com" method="POST" enctype="text/plain">
-						<input class="w3-input w3-half w3-border" type="text" name="fname" placeholder="First" style="height:38px;background:#202020;color:white;" required>
-						<input class="w3-input w3-half w3-border" type="text" name="lname" placeholder="Last" style="height:38px;background:#202020;color:white;" required>
-						<input class="w3-input w3-border" type="email" name="email" placeholder="E-Mail" style="width:100%;height:38px;background:#202020;color:white;" required>
-						<textarea class="w3-input w3-border" type="text" name="message" placeholder="Message" style="width:100%;height:76px;background:#202020;color:white;" required></textarea>
-						<input class="w3-button w3-border" type="submit" name="submit" value="send" style="width:100%;background: #202020;">
-				</form> -->
 				</div>
 
 
@@ -255,7 +265,10 @@
 					<h2>
 						<b>About Me</b>
 					</h2>
-					<p>Artistic scene design is my passion, though my clients contract me for a wide array of tasks, from product design and modeling to clean up work and optimization. If you're interested in working with me, send me an email and I'll get back to you same-day.</p>
+					<p>Artistic scene design is my passion, though my clients contract me for a
+						wide array of tasks, from product design and modeling to clean up work and
+						optimization. If you're interested in working with me, send me an email
+						and I'll get back to you same-day.</p>
 					<!-- <p>
 						I started learning Blender 3D over three years ago, along with extensive studying on 3D modeling, material design, scene composition, compositing, and lighting. I can design 3D products to be displayed in a presentable way, props for video games, in case you are short on time, and even create scenery to bring about a certain story or mood you need for a movie.
 <br><br>
@@ -264,23 +277,20 @@ I mainly focus on photo realism with my work, bringing the props and environment
 I am aiming to be able to utilize my broad knowledge of 3D, using Blender, and provide people with excellent service, and satisfactory results regarding their needs.
 					</p> -->
 					<br>
-					<div class="w3-container">
-
-						<i class="fa fa-envelope" style="width:20px"></i>
-						Email: bruffin095@gmail.com
+					<i class="fa fa-envelope" style="width:20px"></i> Email: <a
+						href="mailto:bruffin095@gmail.com">bruffin095@gmail.com<a>
+							<br>
+							<i class="w3-large fa fa-map-marker" style="width:20px"></i> Lake
+							Elsinore, CA
+						</div>
 					</div>
-					<div class="w3-container">
-						<i class="w3-large fa fa-map-marker" style="width:20px"></i>
-						Lake Elsinore, CA
-					</div>
+					<p class="w3-small w3-center">Website created by Steven Andersen. Contact
+						me at <a href="mailto:sandersen23@live.com">sandersen23@live.com</a>.</p>
+					<div style="height:50px;"></div>
+					<!-- End page content -->
 				</div>
-				<div style="height:300px;"></div>
-			</div>
 
-			<!-- End page content -->
-		</div>
-
-		<script>
+				<script>
 		// Script to open and close sidebar
 		function w3_open() {
 			document.getElementById("mySidebar").style.display = "block";
@@ -292,6 +302,6 @@ I am aiming to be able to utilize my broad knowledge of 3D, using Blender, and p
 			document.getElementById("myOverlay").style.display = "none";
 		}
 	</script>
-	</body>
+			</body>
 
-</html>
+		</html>
